@@ -1,33 +1,33 @@
 body {
-  color: #f5f0f1;
-  background-color: #93a299;
+  color: #ec8fbe;
+  background-color: #e4bdd1;
 }
 
 a {
-  color: #f5f0f1;
+  color: #ec8fbe;
 }
 
 a:hover {
-  color: #cccccc;
+  color: #e4bdd1;
   text-decoration: underline;
 }
 
 .card-body {
-  color: #1f252e;
-  background-color: #93a299;
+  color: #773a63;
+  background-color: #ec8fbe;
 }
 
 .card {
   text-align: left;
-  color: #1f252e;
-  background-color: #1f252e;
+  color: #773a63;
+  background-color: #773a63;
 }
 
 #post-title {
   text-align: left;
-  color: #f5f0f1;
+  color: #ec8fbe;
 }
 
 p {
-  color: #93a299;
+  color: #e4bdd1;
 }
