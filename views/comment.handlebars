@@ -1,0 +1,26 @@
+<div class="card">
+    <div class="container">
+        <h4 id="post-title" class="post-header">Title: {{post.title}} </h4>
+        <p id="post-content">Content: {{post.content}}</p>
+        <p>Posted by {{post.user.username}} on {{post.date_created}}</p>
+    </div>
+
+</div>
+
+<div>
+    <form id="comment-form">
+        <label for="comment-text">Leave a comment</label>
+        <input type="textarea" name="comment-text" id="comment-text">
+        <button class="btn" id="post-comment-btn">Submit</button>
+    </form>
+</div>
+
+<br>
+
+{{#each post.comments as |Comment| }}
+{{> leave-comment Comment}}
+{{/each}}
+
+{{#if post.user.username}}
+<script src="/js/comment.js"></script>
+{{/if}}

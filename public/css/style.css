@@ -1,0 +1,33 @@
+body {
+  color: #f5f0f1;
+  background-color: #93a299;
+}
+
+a {
+  color: #f5f0f1;
+}
+
+a:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}
+
+.card-body {
+  color: #1f252e;
+  background-color: #93a299;
+}
+
+.card {
+  text-align: left;
+  color: #1f252e;
+  background-color: #1f252e;
+}
+
+#post-title {
+  text-align: left;
+  color: #f5f0f1;
+}
+
+p {
+  color: #93a299;
+}
